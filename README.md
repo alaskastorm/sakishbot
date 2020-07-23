@@ -1,2 +1,2 @@
 # sakishbot
-A bot that parses the prices of sneakers at nike.com.
+A private bot that parses the prices of sneakers at nike.com.

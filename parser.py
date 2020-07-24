@@ -90,7 +90,3 @@ class NikeParser:
         else:
             self.parse_page(text)
             return self.combined_data
-
-
-# if __name__ == "__main__":
-#     NikeParser().run_and_send_to_bot()

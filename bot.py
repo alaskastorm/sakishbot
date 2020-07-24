@@ -9,7 +9,7 @@ from time import sleep
 from parser import NikeParser
 
 
-TG_TOKEN = "1377908497:AAFeVjHBJfEqHL-ml6pg7m1magzb9xH7JEU"
+TG_TOKEN = ""
 
 
 def message_handler(bot: Bot, update: Update):
@@ -22,7 +22,7 @@ def message_handler(bot: Bot, update: Update):
             if output_message != compare_var:
                 compare_var = output_message
 
-                bot.send_message(chat_id=607777643, text=compare_var)
+                bot.send_message(chat_id=int, text=compare_var)
 
             sleep(600)
 

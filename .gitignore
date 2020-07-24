@@ -1,2 +1,4 @@
 # Project exclude paths
 /sakish/
+.idea
+__pycache__
